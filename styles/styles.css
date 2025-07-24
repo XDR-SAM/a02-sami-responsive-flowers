@@ -1,3 +1,7 @@
+* , *::before, *::after {
+    box-sizing: border-box;
+}
+
 /* css code  */
 
 /* INTER FONT */
@@ -304,6 +308,7 @@ header {
     
     padding: 30px;
     margin: 0;
+    margin-left: 30px;
 }
 
 .lover-item {
@@ -327,6 +332,274 @@ header {
 .lover-item:last-child {
     margin-bottom: 0;
 }
+
+
+
+
+/* latest deal section styles */
+/* .latest-deal {
+    margin-top: 135px;
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.latest-deal-content {
+    width: 100%;
+    text-align: center;
+}
+
+.latest-deal-title {
+    font-family: "Noto Serif", serif;
+    font-size: 50px;
+    font-weight: 700;
+    margin: 0 0 20px 0;
+}
+
+.latest-deal-description {
+    font-family: "Inter", sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    margin: 0 auto 120px auto;
+    max-width: 600px;
+    line-height: 1.4;
+}
+
+.deals-container {
+    width: 1140px;
+    height: 423px;
+    display: flex;
+    gap: 28px;
+}
+
+.left-deals {
+    width: 367px;
+    height: 423px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.deal-card {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.deal-bloom {
+    background-image: url('../assets/deal-bloom.png');
+    height: 199px;
+    border-radius: 14px;
+}
+
+.deal-ana {
+    background-image: url('../assets/deal-ana.png');
+    height: 199px;
+    border-radius: 14px;
+}
+
+.right-deal {
+    width: 753px;
+    height: 423px;
+}
+
+.deal-zabo {
+    background-image: url('../assets/deal-zabo.png');
+    width: 100%;
+    height: 100%;
+    border-radius: 22px;
+    padding-left: 28px;
+}
+
+.deal-content {
+    text-align: center;
+    color: #ffffff;
+}
+
+.deal-title {
+    font-family: "Noto Serif", serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #ffffff;
+    margin: 0 0 10px 0;
+}
+
+.deal-title-large {
+    font-family: "Noto Serif", serif;
+    font-size: 40px;
+    font-weight: 700;
+    color: #ffffff;
+    margin: 0 0 15px 0;
+}
+
+.shop-now-link {
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+.shop-now-link-large {
+    font-family: "Inter", sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+    color: #ffffff;
+    text-decoration: underline;
+} */
+
+
+/* latest deal section styles */
+.latest-deal {
+    margin-top: 135px;
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.latest-deal-content {
+    width: 100%;
+    text-align: center;
+}
+
+.latest-deal-title {
+    font-family: "Noto Serif", serif;
+    font-size: 50px;
+    font-weight: 700;
+    margin: 0 0 20px 0;
+}
+
+.latest-deal-description {
+    font-family: "Inter", sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    margin: 0 auto 120px auto;
+    max-width: 888px;
+    line-height: 1.4;
+}
+
+.deals-container {
+    width: 1140px;
+    height: 423px;
+    display: flex;
+    gap: 28px;
+    margin: 0 auto;
+}
+
+.left-deals {
+    width: 367px;
+    height: 423px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.deal-card {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.deal-bloom {
+    background-image: url('../assets/deal-bloom.png');
+    height: 199px;
+    border-radius: 14px;
+}
+
+.deal-ana {
+    background-image: url('../assets/deal-ana.png');
+    height: 199px;
+    border-radius: 14px;
+}
+
+.right-deal {
+    width: 753px;
+    height: 423px;
+}
+
+.deal-zabo {
+    background-image: url('../assets/deal-zabo.png');
+    width: 100%;
+    height: 100%;
+    border-radius: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background: #a017173b; */
+
+
+}
+
+.deal-content {
+    text-align: center;
+    color: #ffffff;
+}
+
+.deal-title {
+    font-family: "Noto Serif", serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #ffffff;
+    margin: 0 0 10px 0;
+}
+
+.deal-title-large {
+    font-family: "Noto Serif", serif;
+    font-size: 40px;
+    font-weight: 700;
+    color: #ffffff;
+    margin: 0 0 15px 0;
+}
+
+.shop-now-link {
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+.shop-now-link-large {
+    font-family: "Inter", sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -556,5 +829,82 @@ body {
     .lover-item {
         font-size: 16px;
         margin-bottom: 15px;
+    }
+}
+
+
+
+
+/* Mobile responsive styles for latest deal section */
+@media (max-width: 576px) {
+    .latest-deal {
+        margin-top: 60px;
+        padding-left: 20px;
+        padding-right: 20px;
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+
+    .latest-deal-content {
+        width: 100%;
+        overflow-x: hidden;
+    }
+
+    .latest-deal-title {
+        font-size: 24px;
+        margin-bottom: 15px;
+    }
+
+    .latest-deal-description {
+        font-size: 14px;
+        margin-bottom: 40px;
+        max-width: 100%;
+    }
+
+    .deals-container {
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+        gap: 20px;
+        margin: 0;
+    }
+
+    .left-deals {
+        width: 100%;
+        height: auto;
+        gap: 20px;
+    }
+
+    .deal-bloom,
+    .deal-ana {
+        width: 100%;
+        height: 200px;
+        border-radius: 10px;
+    }
+
+    .right-deal {
+        width: 100%;
+        height: auto;
+    }
+
+    .deal-zabo {
+        width: 100%;
+        height: 200px;
+        border-radius: 10px;
+    }
+
+    .deal-title {
+        font-size: 20px;
+        margin-bottom: 8px;
+    }
+
+    .deal-title-large {
+        font-size: 20px;
+        margin-bottom: 8px;
+    }
+
+    .shop-now-link,
+    .shop-now-link-large {
+        font-size: 16px;
     }
 }
