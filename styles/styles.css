@@ -1,6 +1,3 @@
-/* * , *::before, *::after {
-    box-sizing: border-box;
-} */
 
 /* css code  */
 
@@ -337,124 +334,6 @@ header {
 
 
 
-/* latest deal section styles */
-/* .latest-deal {
-    margin-top: 135px;
-    max-width: 1440px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 150px;
-    padding-right: 150px;
-}
-
-.latest-deal-content {
-    width: 100%;
-    text-align: center;
-}
-
-.latest-deal-title {
-    font-family: "Noto Serif", serif;
-    font-size: 50px;
-    font-weight: 700;
-    margin: 0 0 20px 0;
-}
-
-.latest-deal-description {
-    font-family: "Inter", sans-serif;
-    font-size: 22px;
-    font-weight: 400;
-    margin: 0 auto 120px auto;
-    max-width: 600px;
-    line-height: 1.4;
-}
-
-.deals-container {
-    width: 1140px;
-    height: 423px;
-    display: flex;
-    gap: 28px;
-}
-
-.left-deals {
-    width: 367px;
-    height: 423px;
-    display: flex;
-    flex-direction: column;
-    gap: 25px;
-}
-
-.deal-card {
-    position: relative;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.deal-bloom {
-    background-image: url('../assets/deal-bloom.png');
-    height: 199px;
-    border-radius: 14px;
-}
-
-.deal-ana {
-    background-image: url('../assets/deal-ana.png');
-    height: 199px;
-    border-radius: 14px;
-}
-
-.right-deal {
-    width: 753px;
-    height: 423px;
-}
-
-.deal-zabo {
-    background-image: url('../assets/deal-zabo.png');
-    width: 100%;
-    height: 100%;
-    border-radius: 22px;
-    padding-left: 28px;
-}
-
-.deal-content {
-    text-align: center;
-    color: #ffffff;
-}
-
-.deal-title {
-    font-family: "Noto Serif", serif;
-    font-size: 20px;
-    font-weight: 700;
-    color: #ffffff;
-    margin: 0 0 10px 0;
-}
-
-.deal-title-large {
-    font-family: "Noto Serif", serif;
-    font-size: 40px;
-    font-weight: 700;
-    color: #ffffff;
-    margin: 0 0 15px 0;
-}
-
-.shop-now-link {
-    font-family: "Inter", sans-serif;
-    font-size: 16px;
-    font-weight: 600;
-    color: #ffffff;
-    text-decoration: underline;
-}
-
-.shop-now-link-large {
-    font-family: "Inter", sans-serif;
-    font-size: 28px;
-    font-weight: 600;
-    color: #ffffff;
-    text-decoration: underline;
-} */
-
 
 /* latest deal section styles */
 .latest-deal {
@@ -538,7 +417,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-    /* background: #a017173b; */
+    
 
 
 }
@@ -656,12 +535,108 @@ header {
 
 
 
+/* footer section styles */
+.footer {
+    width: 100%;
+    height: 348px;
+    background-color: #f8f8f8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-content {
+    width: 1120px;
+    height: 248px;
+    max-width: 1440px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    position: relative;
+}
+
+.footer-left {
+    flex: 1;
+    max-width: 400px;
+}
+
+.footer-logo {
+    width: 135px;
+    height: 83px;
+    margin-bottom: 20px;
+}
+
+.footer-description {
+    font-family: "Inter", sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 1.4;
+    margin: 0;
+}
+
+.footer-links {
+    display: flex;
+    gap: 80px;
+    flex: 1;
+    justify-content: center;
+}
+
+.links-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-nav {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.footer-link {
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #6B7280;
+    text-decoration: none;
+}
+
+
+.footer-social {
+    display: flex;
+    gap: 30px;
+    align-items: flex-start;
+}
+
+.social-link {
+    display: block;
+}
+
+.social-link img {
+    width: 40px;
+    height: 40px;
+  
+}
 
 
 
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+/* Mobile responsive styles starts */
 
 
 
@@ -739,7 +714,7 @@ body {
     }
 
     .banner-image {
-        /* order: -1; */
+      
         width: 100%;
         margin-left: 0;
         position: relative;
@@ -1019,3 +994,90 @@ body {
         font-size: 14px;
     }
 }
+
+
+
+
+
+
+/* Mobile responsive styles for footer */
+@media (max-width: 576px) {
+    .footer {
+        height: auto;
+        padding: 40px 0;
+        background-color: #f8f8f8;
+        overflow-x: hidden;
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .footer-content {
+        flex-direction: column;
+        align-items: flex-start;
+        text-align: left;
+        gap: 20px;
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+        padding: 0 15px;
+        box-sizing: border-box;
+        overflow-x: hidden;
+    }
+
+    .footer-left {
+        width: 100%;
+        max-width: 100%;
+        box-sizing: border-box;
+    }
+
+    .footer-logo {
+        margin-left: 0;
+        margin-bottom: 10px;
+        max-width: 100%;
+        height: auto;
+    }
+
+    .footer-description {
+        font-size: 16px;
+        display: flex;
+        max-width: 100%;
+        box-sizing: border-box;
+    }
+
+    .footer-links {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+        width: 100%;
+        max-width: 100%;
+        box-sizing: border-box;
+    }
+
+    .footer-nav {
+        gap: 16px;
+        align-items: flex-start;
+        width: 100%;
+        max-width: 100%;
+        box-sizing: border-box;
+    }
+
+    .footer-link {
+        font-size: 16px;
+        word-break: break-word;
+    }
+
+    .footer-social {
+        justify-content: flex-start;
+        width: 100%;
+        gap: 15px;
+        flex-wrap: wrap;
+        box-sizing: border-box;
+        max-width: 100%;
+    }
+
+    .social-link img {
+        width: 32px;
+        height: 32px;
+    }
+}
+/* End of styles.css */
