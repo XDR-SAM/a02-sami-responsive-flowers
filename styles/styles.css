@@ -1,4 +1,5 @@
 
+
 /* css code  */
 
 /* INTER FONT */
@@ -17,6 +18,11 @@
   font-weight: 400;
   font-style: normal;
   font-variation-settings: "wdth" 100;
+}
+
+
+body{
+   margin : 0;
 }
 
 
@@ -396,12 +402,16 @@ header {
     background-image: url('../assets/deal-bloom.png');
     height: 199px;
     border-radius: 14px;
+     background-color: rgba(0,0,0,0.4); 
+    background-blend-mode: darken;
 }
 
 .deal-ana {
     background-image: url('../assets/deal-ana.png');
     height: 199px;
     border-radius: 14px;
+    background-color: rgba(0,0,0,0.4); 
+    background-blend-mode: darken;
 }
 
 .right-deal {
@@ -417,6 +427,8 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: rgba(0,0,0,0.4); 
+    background-blend-mode: darken;
     
 
 
@@ -726,6 +738,7 @@ body {
         height: auto;
         max-height: 300px;
         object-fit: cover;
+        padding-left: 20px;
     }
 
     .banner-text {
